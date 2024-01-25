@@ -1,0 +1,23 @@
+.foooter_data {
+  display: flex;
+  justify-content: space-between;
+}
+.foooter_data div ul {
+  display: block;
+}
+.footer_outer_container {
+  width: 80%;
+  margin: auto;
+}
+.footer_icons {
+  margin-left: 1%;
+}
+.service_code {
+  border: solid gray;
+  width: 10%;
+
+  text-align: center;
+}
+.service_code {
+  margin-top: 10px;
+}
