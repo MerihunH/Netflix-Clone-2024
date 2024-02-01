@@ -8,6 +8,7 @@
 .footer_outer_container {
   width: 80%;
   margin: auto;
+  color: whitesmoke;
 }
 .footer_icons {
   margin-left: 1%;
@@ -19,5 +20,5 @@
   text-align: center;
 }
 .service_code {
-  margin-top: 10px;
+  margin-top: 10px;
 }
