@@ -8,8 +8,11 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const Header = () => {
   return (
     <>
+      {/* Header outer container start*/}
       <div className="header_outer_container">
+        {/* Header container start*/}
         <div className="header_container">
+          {/* Header left start */}
           <div className="header_left">
             <ul>
               <li>
@@ -22,8 +25,10 @@ const Header = () => {
               <li>My List</li>
               <li>Browse by Languages</li>
             </ul>
+            {/* Header left end */}
           </div>
-          <div className="header_left">
+          {/* Header right start */}
+          <div className="header_Right">
             <ul>
               <li>
                 <SearchIcon />
@@ -38,8 +43,11 @@ const Header = () => {
                 <ArrowDropDownIcon />
               </li>
             </ul>
+            {/* Header right end */}
           </div>
+          {/*  Header container end here*/}
         </div>
+        {/*Header outer container  end here*/}
       </div>
     </>
   );
